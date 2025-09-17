@@ -1,0 +1,525 @@
+[
+  {
+    "group": "A10",
+    "schedule": [
+      {
+        "day": "Понеділок",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Зарубіжна література",
+            "teacher": "Міщанчук Н.О.",
+            "classroom": "312"
+          },
+          {
+            "number": 2,
+            "subject": "Українська література",
+            "teacher": "Римар Т.В.",
+            "classroom": "312"
+          },
+          {
+            "number": 3,
+            "subject": "Захист України",
+            "teacher": "Трач О.С.",
+            "classroom": "312"
+          },
+          {
+            "number": 4,
+            "subject": "Фізична культура",
+            "teacher": "Ясінська К.О.",
+            "classroom": "312"
+          }
+        ]
+      },
+      {
+        "day": "Вівторок",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Зарубіжна література",
+            "teacher": "Міщанчук Н.О.",
+            "classroom": "312"
+          },
+          {
+            "number": 2,
+            "subject": "Інформатика",
+            "teacher": "Панжевич О.М.",
+            "classroom": "312"
+          },
+          {
+            "number": 3,
+            "subject": "Географія",
+            "teacher": "Ємчинська Н.В.",
+            "classroom": "312"
+          },
+          {
+            "number": 4,
+            "subject": "Фізична культура",
+            "teacher": "Ясінська К.О.",
+            "classroom": "312"
+          }
+        ]
+      },
+      {
+        "day": "Середа",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Зарубіжна література",
+            "teacher": "Міщанчук Н.О.",
+            "classroom": "312"
+          },
+          {
+            "number": 2,
+            "subject": "Фізика і астрономія",
+            "teacher": "Гордійчук О.М.",
+            "classroom": "312"
+          },
+          {
+            "number": 3,
+            "subject": "Історія України",
+            "teacher": "Міщенко В.А.",
+            "classroom": "312"
+          },
+          {
+            "number": 4,
+            "subject": "Фізична культура",
+            "teacher": "Ясінська К.О.",
+            "classroom": "312"
+          }
+        ]
+      },
+      {
+        "day": "Четвер",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Зарубіжна література",
+            "teacher": "Міщанчук Н.О.",
+            "classroom": "312"
+          },
+          {
+            "number": 2,
+            "subject": "Петрова А.А.",
+            "teacher": "Географія",
+            "classroom": "312"
+          },
+          {
+            "number": 3,
+            "subject": "Всесвітня історія",
+            "teacher": "Міщенко В.А.",
+            "classroom": "312"
+          },
+          {
+            "number": 4,
+            "subject": "Захист України",
+            "teacher": "Паламарчук А.С.",
+            "classroom": "312"
+          }
+        ]
+      },
+      {
+        "day": "П'ятниця",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Зарубіжна література",
+            "teacher": "Міщичук Н.О.",
+            "classroom": "312"
+          },
+          {
+            "number": 2,
+            "subject": "Інформатика",
+            "teacher": "Пашкевич О.М.",
+            "classroom": "312"
+          },
+          {
+            "number": 3,
+            "subject": "Біологія і скологія",
+            "teacher": "Ставничий А.М.",
+            "classroom": "312"
+          },
+          {
+            "number": 4,
+            "subject": "Фізична культура",
+            "teacher": "Ясінська К.О.",
+            "classroom": "312"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group": "Мт12",
+    "schedule": [
+      {
+        "day": "Понеділок",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Зарубіжна література",
+            "teacher": "Міпричук Н.О.",
+            "classroom": "410"
+          },
+          {
+            "number": 2,
+            "subject": "Пашкевич О.М.",
+            "teacher": "Семенок Л.М.",
+            "classroom": "410"
+          },
+          {
+            "number": 3,
+            "subject": "Історія України",
+            "teacher": "Міщенко В.А.",
+            "classroom": "410"
+          },
+          {
+            "number": 4,
+            "subject": "Фізична культура",
+            "teacher": "Лисюк Д.О.",
+            "classroom": "410"
+          }
+        ]
+      },
+      {
+        "day": "Вівторок",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Українська мова",
+            "teacher": "Вольська Ю.В.",
+            "classroom": "416"
+          },
+          {
+            "number": 2,
+            "subject": "Гаврилюк О.В",
+            "teacher": "Паламарчук А.С.",
+            "classroom": "416"
+          },
+          {
+            "number": 3,
+            "subject": "Вольська Ю.В.",
+            "teacher": "Міщенко В.А.",
+            "classroom": "416"
+          },
+          {
+            "number": 4,
+            "subject": "Ясінська К.О.",
+            "teacher": "Ярмоленко В.С.",
+            "classroom": "416"
+          }
+        ]
+      },
+      {
+        "day": "Середа",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Українська мова",
+            "teacher": "Вольська Ю.В.",
+            "classroom": "416"
+          },
+          {
+            "number": 2,
+            "subject": "Лісіцька Н.В.",
+            "teacher": "Паламарчук А.С.",
+            "classroom": "416"
+          },
+          {
+            "number": 3,
+            "subject": "Бондаренко О.П.",
+            "teacher": "Вольська Ю.В.",
+            "classroom": "416"
+          },
+          {
+            "number": 4,
+            "subject": "Ясінська К.О.",
+            "teacher": "Ярмоленко В.С.",
+            "classroom": "416"
+          }
+        ]
+      },
+      {
+        "day": "Четвер",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Українська мова",
+            "teacher": "Вольська Ю.В.",
+            "classroom": "416"
+          },
+          {
+            "number": 2,
+            "subject": "Вольська Ю.В.",
+            "teacher": "Семенюк Л.М.",
+            "classroom": "416"
+          },
+          {
+            "number": 3,
+            "subject": "Міщенко В.А.",
+            "teacher": "Паламарчук А.С.",
+            "classroom": "416"
+          },
+          {
+            "number": 4,
+            "subject": "Кочин LC.",
+            "teacher": "Семенюк Л.М.",
+            "classroom": "416"
+          }
+        ]
+      },
+      {
+        "day": "П'ятниця",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Українська мова",
+            "teacher": "Бондаренко О.П.",
+            "classroom": "416"
+          },
+          {
+            "number": 2,
+            "subject": "Лісіцька Н.В.",
+            "teacher": "Власюк Н.М.",
+            "classroom": "416"
+          },
+          {
+            "number": 3,
+            "subject": "Захист України",
+            "teacher": "Трач О.С.",
+            "classroom": "416"
+          },
+          {
+            "number": 4,
+            "subject": "Біологія і скологі",
+            "teacher": "Ставничий А.М.",
+            "classroom": "416"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group": "Ел11",
+    "schedule": [
+      {
+        "day": "Понеділок",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Українська мова",
+            "teacher": "Вольська Ю.В.",
+            "classroom": "319"
+          },
+          {
+            "number": 2,
+            "subject": "Дитниченко ІМ.",
+            "teacher": "Гаврилюк О.В",
+            "classroom": "319"
+          },
+          {
+            "number": 3,
+            "subject": "Вольська Ю.В.",
+            "teacher": "Дитниченко ІМ.",
+            "classroom": "319"
+          },
+          {
+            "number": 4,
+            "subject": "Опанащук Ю.М.",
+            "teacher": "Семенюк Л.М.",
+            "classroom": "319"
+          }
+        ]
+      },
+      {
+        "day": "Вівторок",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Інформатика",
+            "teacher": "Пацкевич О.М.",
+            "classroom": "319"
+          },
+          {
+            "number": 2,
+            "subject": "Петрова А.А.",
+            "teacher": "Власюк Н.М.",
+            "classroom": "319"
+          },
+          {
+            "number": 3,
+            "subject": "Петрова А.А.",
+            "teacher": "Власток Н.М.",
+            "classroom": "319"
+          },
+          {
+            "number": 4,
+            "subject": "Міщенко В.А.",
+            "teacher": "Римар Т.В.",
+            "classroom": "319"
+          }
+        ]
+      },
+      {
+        "day": "Середа",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Інформатика",
+            "teacher": "Пацкевич О.М.",
+            "classroom": "319"
+          },
+          {
+            "number": 2,
+            "subject": "Вступ до спеціальності",
+            "teacher": "Пашкевич О.М.",
+            "classroom": "319"
+          },
+          {
+            "number": 3,
+            "subject": "Паламарчук А.С.",
+            "teacher": "Петрова А.А",
+            "classroom": "319"
+          },
+          {
+            "number": 4,
+            "subject": "Власюк Н.М.",
+            "teacher": "Черніченко А.П.",
+            "classroom": "319"
+          }
+        ]
+      },
+      {
+        "day": "Четвер",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Інформатика",
+            "teacher": "Пашкевич О.М.",
+            "classroom": "319"
+          },
+          {
+            "number": 2,
+            "subject": "Подлесна К.А.",
+            "teacher": "Лісіцька Н.В.",
+            "classroom": "319"
+          },
+          {
+            "number": 3,
+            "subject": "Петрова А.А.",
+            "teacher": "Паламарчук А.С.",
+            "classroom": "319"
+          },
+          {
+            "number": 4,
+            "subject": "Захист України",
+            "teacher": "Паламарчук А.С.",
+            "classroom": "319"
+          }
+        ]
+      },
+      {
+        "day": "П'ятниця",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Скачков В.О.",
+            "teacher": "Власток Н.М.",
+            "classroom": "319"
+          },
+          {
+            "number": 2,
+            "subject": "Українська література",
+            "teacher": "Семенюк Л.М.",
+            "classroom": "319"
+          },
+          {
+            "number": 3,
+            "subject": "Ставничий А.М.",
+            "teacher": "Міщенко В.А.",
+            "classroom": "300"
+          },
+          {
+            "number": 4,
+            "subject": "Пашкевич О.М.",
+            "teacher": "Ставничий А.М.",
+            "classroom": "319"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group": "Ф15",
+    "schedule": [
+      {
+        "day": "Понеділок",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Інформатика",
+            "teacher": "Скачков В.О.",
+            "classroom": "101a"
+          },
+          {
+            "number": 2,
+            "subject": "Петрова А.А.",
+            "teacher": "Власюк Н.М.",
+            "classroom": "101a"
+          },
+          {
+            "number": 3,
+            "subject": "Географія",
+            "teacher": "Ємчинська Н.В",
+            "classroom": "101a"
+          }
+        ]
+      },
+      {
+        "day": "Вівторок",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Гаврилюк О.В",
+            "teacher": "Семенок Л.М.",
+            "classroom": "214"
+          },
+          {
+            "number": 2,
+            "subject": "Інформатика",
+            "teacher": "Опанащук Ю.М.",
+            "classroom": "214"
+          },
+          {
+            "number": 3,
+            "subject": "Паночицена А.В",
+            "teacher": "Ярмоленко В.С",
+            "classroom": "214"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group": "M14",
+    "schedule": [
+      {
+        "day": "Вівторок",
+        "lessons": [
+          {
+            "number": 1,
+            "subject": "Гордійчук О.М.",
+            "teacher": "Гаврилюк О",
+            "classroom": "214"
+          },
+          {
+            "number": 2,
+            "subject": "Гордійчук О.М.",
+            "teacher": "Семенюк Л.М.",
+            "classroom": "214"
+          }
+        ]
+      }
+    ]
+  }
+]

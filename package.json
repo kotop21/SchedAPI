@@ -18,9 +18,11 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "@types/node": "^24.5.0",
+    "@genkit-ai/googleai": "^1.19.2",
+    "@types/node": "^24.5.1",
     "@types/pdf-parse": "^1.1.5",
     "dotenv": "^17.2.2",
+    "genkit": "^1.19.2",
     "pdf.js-extract": "^0.2.1"
   }
 }

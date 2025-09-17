@@ -1,26 +1,50 @@
-import { PDFExtract } from 'pdf.js-extract';
+import { gemini20Flash, googleAI } from '@genkit-ai/googleai';
+import { genkit, z } from 'genkit/beta';
 import fs from 'fs';
 
-const pdfExtract = new PDFExtract();
-const options = {};
+// Инициализация Genkit с API ключом
+const ai = genkit({
+  plugins: [googleAI({ apiKey: process.env.API_KEY! })],
+  model: gemini20Flash,
+});
 
-const file = "./static/schedule.pdf";
+const LessonSchema = z.object({
+  number: z.number(),
+  subject: z.string().min(1, 'Subject is required'),
+  teacher: z.string().min(1, 'Teacher is required'),
+  classroom: z.string().min(1, 'Classroom is required'),
+});
 
-pdfExtract.extract(file, options, (err, data) => {
-  if (err) return console.error(err);
+const DayScheduleSchema = z.object({
+  day: z.string().min(1, 'Day is required'),
+  lessons: z.array(LessonSchema).min(1, 'Lessons array cannot be empty'),
+});
 
-  const words = data.pages[0].content;
+const GroupScheduleSchema = z.object({
+  group: z.string().min(1, 'Group name is required'),
+  schedule: z.array(DayScheduleSchema).min(1, 'Schedule array cannot be empty'),
+});
 
-  // Группировка по строкам
-  let rows = {};
-  words.forEach(w => {
-    const y = Math.round(w.y);
-    if (!rows[y]) rows[y] = [];
-    rows[y].push(w.str);
+const ScheduleSchema = z.array(GroupScheduleSchema).min(1, 'Schedule must contain at least one group');
+
+async function extractSchedule(url: string) {
+  const { output } = await ai.generate({
+    prompt: [
+      { media: { url } },
+      { text: 'Extract all groups with lessons. Every lesson must have subject, teacher, and classroom, no fields can be empty.' },
+    ],
+    output: { schema: ScheduleSchema },
   });
 
-  // Сохраняем в JSON
-  fs.writeFileSync("./output/output.json", JSON.stringify(rows, null, 2), "utf8");
+  return output;
+}
 
-  console.log("Результат сохранён в output.json");
-});
+(async () => {
+  try {
+    const schedule = await extractSchedule(process.env.URL!);
+    fs.writeFileSync('json-schedule.json', JSON.stringify(schedule, null, 2));
+    console.log('Saved json-schedule.json with strictly validated schedule');
+  } catch (err) {
+    console.error('Error extracting schedule:', err);
+  }
+})();
